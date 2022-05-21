@@ -15,6 +15,17 @@
             ]
         },
         {
+            "action": "allow",
+            "notes": "github.com",
+            "process": "any",
+            "remote-domains": [
+                "github.com",
+                "github.io",
+                "githubassets.com",
+                "githubusercontent.com",
+            ]
+        },
+        {
             "action": "deny",
             "notes": "brave.com",
             "process": "any",

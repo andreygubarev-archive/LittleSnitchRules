@@ -6,12 +6,25 @@
     ],
     "rules": [
         {
+            "action": "allow",
             "notes": "jut.su",
             "process": "any",
-            "action": "allow",
             "remote-domains": [
                 "jut.su",
                 "kujo-jotaro.com",
+            ]
+        },
+        {
+            "action": "deny",
+            "notes": "brave.com",
+            "process": "any",
+            "remote-domains": [
+                "ads-static.brave.com",
+                "ads.brave.com",
+                "analytics.brave.com",
+                "rewards.brave.com",
+                "stats.brave.com",
+                "variations.brave.com",
             ]
         }
     ]

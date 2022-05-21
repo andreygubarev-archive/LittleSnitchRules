@@ -3,5 +3,16 @@
     "description": "",
     "denied-remote-domains": [
         "googletagmanager.com",
+    ],
+    "rules": [
+        {
+            "notes": "jut.su",
+            "process": "any",
+            "action": "allow",
+            "remote-domains": [
+                "jut.su",
+                "kujo-jotaro.com",
+            ]
+        }
     ]
 }

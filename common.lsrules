@@ -1,6 +1,9 @@
 {
     "name": "Andrey Gubarev's LittleSnitch Rules",
     "description": "",
+    "denied-remote-addresses": [],
+    "denied-remote-domains": [],
+    "denied-remote-hosts": [],
     "rules": [
         {
             "action": "allow",

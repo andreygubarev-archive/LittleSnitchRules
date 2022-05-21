@@ -45,6 +45,15 @@
                 "stats.brave.com",
                 "variations.brave.com",
             ]
+        },
+        {
+            "action": "deny",
+            "notes": "ads and tracking",
+            "process": "any",
+            "remote-domains": [
+                "clickfunnels.com",
+                "doubleclick.net",
+            ]
         }
     ]
 }

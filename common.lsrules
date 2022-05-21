@@ -1,9 +1,6 @@
 {
     "name": "Andrey Gubarev's LittleSnitch Rules",
     "description": "",
-    "denied-remote-domains": [
-        "googletagmanager.com",
-    ],
     "rules": [
         {
             "action": "allow",
@@ -15,44 +12,16 @@
             ]
         },
         {
-            "action": "allow",
-            "notes": "github.com",
-            "process": "any",
-            "remote-domains": [
-                "github.com",
-                "github.io",
-                "githubassets.com",
-                "githubusercontent.com",
-            ]
-        },
-        {
-            "action": "allow",
-            "notes": "obdev.at (littlesnitch)",
-            "process": "any",
-            "remote-domains": [
-                "obdev.at",
-            ]
-        },
-        {
             "action": "deny",
             "notes": "brave.com",
             "process": "any",
-            "remote-domains": [
+            "remote-hosts": [
                 "ads-static.brave.com",
                 "ads.brave.com",
                 "analytics.brave.com",
                 "rewards.brave.com",
                 "stats.brave.com",
                 "variations.brave.com",
-            ]
-        },
-        {
-            "action": "deny",
-            "notes": "ads and tracking",
-            "process": "any",
-            "remote-domains": [
-                "clickfunnels.com",
-                "doubleclick.net",
             ]
         }
     ]

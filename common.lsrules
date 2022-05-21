@@ -1,0 +1,7 @@
+{
+    "name": "Andrey Gubarev's LittleSnitch Rules",
+    "description": "",
+    "denied-remote-domains": [
+        "googletagmanager.com",
+    ]
+}

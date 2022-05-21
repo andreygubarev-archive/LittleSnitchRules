@@ -14,7 +14,7 @@
         {
             "action": "deny",
             "notes": "brave.com",
-            "process": "any",
+            "process": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
             "remote-hosts": [
                 "ads-static.brave.com",
                 "ads.brave.com",

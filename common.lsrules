@@ -26,6 +26,14 @@
             ]
         },
         {
+            "action": "allow",
+            "notes": "obdev.at (littlesnitch)",
+            "process": "any",
+            "remote-domains": [
+                "obdev.at",
+            ]
+        },
+        {
             "action": "deny",
             "notes": "brave.com",
             "process": "any",

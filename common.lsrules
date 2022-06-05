@@ -26,6 +26,12 @@
                 "stats.brave.com",
                 "variations.brave.com",
             ]
-        }
+        },
+        {
+            "action": "allow",
+            "notes": "wireguard.com",
+            "process": "/Applications/WireGuard.app/Contents/PlugIns/WireGuardNetworkExtension.appex/Contents/MacOS/WireGuardNetworkExtension",
+            "remote": "any"
+        },
     ]
 }
